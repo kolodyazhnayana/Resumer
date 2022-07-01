@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "react-hooks",
+    "prettier"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "env": {
+    "es6": true
+  },
+  "rules": {
+    "prettier/prettier": ["error", {
+      "bracketSpacing": true,
+      "singleQuote": true,
+      "trailingComma": "all",
+      "semi": false,
+      "tabWidth": 2
+    }],
+    "react-hooks/rules-of-hooks": "error", // Проверяем правила хуков
+    "react-hooks/exhaustive-deps": "warn", // Проверяем зависимости эффекта
+  }
+}
