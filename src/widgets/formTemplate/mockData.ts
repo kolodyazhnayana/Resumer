@@ -1,4 +1,6 @@
-export const docDefinition = {
+import { TDocumentDefinitions } from 'pdfmake/interfaces'
+
+export const docDefinition: TDocumentDefinitions = {
   content: [
     {
       text: 'Колодяжная Яна',
@@ -42,8 +44,7 @@ export const docDefinition = {
     },
     medium: {
       fontSize: 12,
-      marginTop: 5,
-      marginBottom: 5,
+      margin: [5, 0],
     },
   },
 }

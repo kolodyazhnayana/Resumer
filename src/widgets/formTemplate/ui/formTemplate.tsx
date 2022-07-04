@@ -1,7 +1,7 @@
-import { downloadPdf } from 'features/make-pdf/lib/downloadPdf'
-import { docDefinition } from 'features/make-pdf/lib/templateForResume'
 import Button from 'shared/ui/button'
 import React from 'react'
+import { docDefinition } from '../mockData'
+import { downloadPdf } from 'features/make-pdf'
 
 const FormTemplate = () => {
   return (

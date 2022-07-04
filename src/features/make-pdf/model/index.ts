@@ -1,0 +1,1 @@
+export { downloadPdf } from './downloadPdf'
