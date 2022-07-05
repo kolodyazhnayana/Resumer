@@ -1,4 +1,4 @@
-import FormTemplate from 'widgets/formTemplate/ui/formTemplate'
+import FormTemplate from 'entities/formTemplate/ui/formTemplate'
 
 const MainPage = () => {
   return <FormTemplate />

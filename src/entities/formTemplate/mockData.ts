@@ -44,7 +44,7 @@ export const docDefinition: TDocumentDefinitions = {
     },
     medium: {
       fontSize: 12,
-      margin: [5, 0],
+      margin: [0, 5],
     },
   },
 }
