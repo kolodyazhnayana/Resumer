@@ -1,7 +1,7 @@
-import FormTemplate from 'entities/formTemplate/ui/formTemplate'
+import Template from 'entities/form-templates/ui/template/template'
 
 const MainPage = () => {
-  return <FormTemplate />
+  return <Template />
 }
 
 export default MainPage

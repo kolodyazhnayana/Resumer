@@ -11,6 +11,7 @@
     "@types/pdfmake": "^0.1.21",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "antd": "^4.21.5",
     "compose-function": "^3.0.3",
     "effector": "^22.3.0",
     "effector-react": "^22.0.6",

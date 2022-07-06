@@ -1,0 +1,1 @@
+export { makeDocDefinition } from './makeDocDefinition'
