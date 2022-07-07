@@ -1,7 +1,7 @@
-import Template from 'entities/form-templates/ui/template/template'
+import ResumeEditor from 'widgets/resume-editor/ui/editor'
 
 const MainPage = () => {
-  return <Template />
+  return <ResumeEditor />
 }
 
 export default MainPage

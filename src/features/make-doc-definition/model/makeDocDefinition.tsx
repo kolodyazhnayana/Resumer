@@ -1,8 +1,9 @@
 import { TDocumentDefinitions } from 'pdfmake/interfaces'
+import { ResumeData } from 'entities/template-form'
 
 export const makeDocDefinition = (
   /* eslint-disable */
-  content: Record<string, string>
+  content: ResumeData
 ): TDocumentDefinitions => {
   return {
     content: [
@@ -11,7 +12,7 @@ export const makeDocDefinition = (
         style: 'h1',
       },
       {
-        text: content.jobTitle,
+        text: content.position,
         style: 'h3',
       },
       {
