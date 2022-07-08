@@ -36,7 +36,7 @@ export const makeDocDefinition = (
         style: 'h2',
       },
       {
-        ul: [content.skills],
+        ul: content.skills,
         style: 'ul',
       },
     ],

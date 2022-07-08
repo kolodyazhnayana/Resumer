@@ -4,6 +4,6 @@ import { TDocumentDefinitions } from 'pdfmake/interfaces'
 
 pdfMake.vfs = pdfFonts.pdfMake.vfs
 
-export const downloadPdf = (docDefinition: TDocumentDefinitions) => {
-  pdfMake.createPdf(docDefinition).download()
+export const downloadPdf = (docDefinition: TDocumentDefinitions | null) => {
+  docDefinition && pdfMake.createPdf(docDefinition).download()
 }

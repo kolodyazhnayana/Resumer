@@ -9,5 +9,3 @@ sample({
   clock: saveResumeData,
   target: $resumeData,
 })
-
-$resumeData.watch((data) => console.log(data))
