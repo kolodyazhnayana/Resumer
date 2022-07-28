@@ -1,11 +1,11 @@
 import React from 'react'
 import { Button, Form as AntForm, Input } from 'antd'
 import './styles.scss'
-import { ResumeData } from '../model'
+import { Data } from '../model'
 import { MinusCircleOutlined, PlusOutlined } from '@ant-design/icons'
 
 export interface FormProps {
-  onSubmit: (val: ResumeData) => void;
+  onSubmit: (val: Data) => void;
 }
 
 export const Form = ({ onSubmit }: FormProps) => {

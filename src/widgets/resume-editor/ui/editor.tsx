@@ -11,7 +11,11 @@ const ResumeEditor = () => {
 
   return (
     <div className="editor__container">
-      <Form onSubmit={saveResumeDataFn} />
+      <Form
+        onSubmit={(value) => {
+          saveResumeDataFn({ data: value })
+        }}
+      />
       <Button
         type="link"
         disabled={Boolean(!docDefinition.content)}

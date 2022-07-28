@@ -4,22 +4,23 @@ import { ResumeData } from 'entities/template-form'
 export const makeDocDefinition = (
   content: ResumeData
 ): TDocumentDefinitions => {
+  const { data } = content
   return {
     content: [
       {
-        text: content.name,
+        text: data.name,
         style: 'h1',
       },
       {
-        text: content.position,
+        text: data.position,
         style: 'h3',
       },
       {
-        text: content.phone,
+        text: data.phone,
         style: 'p',
       },
       {
-        text: content.email,
+        text: data.email,
         style: 'p',
       },
       {
@@ -27,7 +28,7 @@ export const makeDocDefinition = (
         style: 'h2',
       },
       {
-        text: content.experience,
+        text: data.experience,
         style: 'p',
       },
       {
@@ -35,7 +36,7 @@ export const makeDocDefinition = (
         style: 'h2',
       },
       {
-        ul: content.skills,
+        ul: data.skills,
         style: 'ul',
       },
     ],
