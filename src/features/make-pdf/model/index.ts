@@ -1,1 +1,0 @@
-export { downloadPdf } from './downloadPdf'

@@ -1,1 +1,0 @@
-export { makeDocDefinition } from './makeDocDefinition'
